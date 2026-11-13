@@ -14,7 +14,7 @@ El curso está dirigido a estudiantes de secundaria sin experiencia previa. Cada
 
 **Repositorio de código fuente:** [Vanguard · Java Fundamentals Course](https://github.com/Vanguard-open-source/java-fundamentals-course-vanguard)
 
-> **Versión preliminar:** los enlaces de los videos y las prácticas precargadas se incorporarán cuando estén publicados. Las carpetas de código están reservadas para las cinco misiones y todavía no contienen los programas.
+> **Versión preliminar:** la misión 5 ya cuenta con video, código inicial y solución completa. Los enlaces y materiales de las misiones 1 a 4 se incorporarán cuando estén disponibles.
 
 ## Secuencia de las Lecciones
 
@@ -100,7 +100,7 @@ El curso está dirigido a estudiantes de secundaria sin experiencia previa. Cada
 
 **Descripción:** protege los datos de los personajes, organiza un equipo y reúne lo aprendido en un programa final. El programa recibe un nombre y una cantidad de vida, crea personajes, muestra sus presentaciones y decide si el héroe está listo para la aventura. También aprenderás a interpretar errores comunes y comprobar distintos resultados.
 
-**Enlace:** pendiente de incorporar el enlace real del video no listado de la misión 5.
+**Enlace:** [Ver la misión 5 en YouTube](https://youtu.be/YcPR7eg055U).
 
 **Conclusiones clave:**
 
@@ -109,7 +109,7 @@ El curso está dirigido a estudiantes de secundaria sin experiencia previa. Cada
 - Un array tiene una cantidad fija de elementos; sus índices empiezan en cero. Un bucle permite recorrer los personajes del equipo.
 - Probar valores como 100, 30, 50, cero y un número negativo permite comprobar caminos diferentes del programa. Con 50 puntos el héroe ya puede comenzar la aventura.
 
-**Proyecto final:** pendiente de incorporar el enlace precargado del proyecto de la misión 5.
+**Proyecto final:** [abre la práctica precargada en OnlineGDB](https://onlinegdb.com/6nfQx3CBE), utiliza el [código inicial](starter-files/mision-05/Main.java) y compara tu resultado con la [solución completa](completed-examples/mision-05/Main.java).
 
 **Desafío:** cambia la vida de Nova, crea un tercer personaje y agrégalo al array `equipo`. Ejecuta el programa, comprueba que se presenten los tres y conserva la validación de la vida.
 
@@ -128,7 +128,7 @@ El curso está dirigido a estudiantes de secundaria sin experiencia previa. Cada
 | 2 | Abrir la puerta con condiciones y recuperar energía con bucles | Enlace precargado pendiente |
 | 3 | Leer un nombre y personalizar un saludo mediante métodos | Enlace precargado pendiente |
 | 4 | Crear y presentar varios personajes a partir de una clase | Enlace precargado pendiente |
-| 5 | Validar la vida, recorrer el equipo y completar el proyecto final | Enlace precargado pendiente |
+| 5 | Validar la vida, recorrer el equipo y completar el proyecto final | [Abrir en OnlineGDB](https://onlinegdb.com/6nfQx3CBE) |
 
 ### Material de cada misión en el repositorio
 
@@ -169,8 +169,16 @@ Para practicar, pausa el video, predice el resultado, ejecuta el programa y comp
 
 ### Organización del trabajo
 
+| Misión | Responsable |
+| --- | --- |
+| 1. Despierta a Pixel | Antony Alexander Jimenez Saavedra |
+| 2. El laberinto de las decisiones | Brayan Benjamin Huerta Cardenas |
+| 3. Desbloquea tus habilidades | Luisa Nhiriel Casalino Berrocal |
+| 4. La fábrica de personajes | Giovanni Marcelo Gallegos De La Cruz |
+| 5. El desafío final | Fabricio Jose Rivera Rupay |
+
 El curso está organizado en cinco misiones con una progresión común: explicación de conceptos, demostración del programa, pregunta para reflexionar, práctica y cierre. La preparación de cada misión comprende su narración, el material visual, los ejemplos y la actividad propuesta.
 
-Fabricio Jose Rivera Rupay es el responsable confirmado de la misión 5 y utiliza la cuenta de GitHub [Fabricio1924](https://github.com/Fabricio1924). La asignación de las misiones 1 a 4 se completará cuando el equipo confirme la distribución.
+Fabricio Jose Rivera Rupay es responsable de la misión 5 y utiliza la cuenta de GitHub [Fabricio1924](https://github.com/Fabricio1924).
 
 Los aportes al plan del curso, al código y a los materiales se registrarán mediante commits de cada integrante. Antes de la entrega, el equipo revisará la continuidad de las lecciones, los ejemplos, los enlaces y la duración total, y completará el resumen de las tareas efectivamente realizadas.
