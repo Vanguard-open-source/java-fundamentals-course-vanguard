@@ -14,13 +14,13 @@ El curso está dirigido a estudiantes de secundaria sin experiencia previa. Cada
 
 **Repositorio de código fuente:** [Vanguard · Java Fundamentals Course](https://github.com/Vanguard-open-source/java-fundamentals-course-vanguard)
 
-> **Versión preliminar:** las misiones 1, 2 y 5 ya cuentan con video; las misiones 2 y 5 también tienen código inicial y soluciones completas. Los materiales de la misión 1 y los enlaces y materiales de las misiones 3 y 4 se incorporarán cuando estén disponibles.
+> **Versión preliminar:** las misiones 1, 2 y 5 ya cuentan con video, código inicial y soluciones completas. Los enlaces y materiales de las misiones 3 y 4 se incorporarán cuando estén disponibles.
 
 ## Secuencia de las Lecciones
 
 ### Misión 1: Despierta a Pixel — Introducción, sintaxis y variables
 
-**Duración estimada:** 11 minutos.
+**Duración:** 9 minutos y 43 segundos en la versión actual del video.
 
 **Descripción:** descubre qué significa programar y para qué se utiliza Java. Conoce la estructura básica de un programa, muestra tu primer mensaje en la consola y crea la ficha de Pixel utilizando variables.
 
@@ -33,7 +33,19 @@ El curso está dirigido a estudiantes de secundaria sin experiencia previa. Cada
 - `String`, `int`, `double` y `boolean` permiten guardar distintos tipos de datos.
 - Las variables tienen un nombre, un tipo y un valor que podemos utilizar y modificar.
 
-**Empieza a programar:** pendiente de incorporar el enlace precargado de la práctica de la misión 1.
+**Empieza a programar:** utiliza el [código y la guía de la misión 1](#prácticas-de-la-misión-1).
+
+#### Prácticas de la misión 1
+
+Abre [OnlineGDB para Java](https://www.onlinegdb.com/online_java_compiler), copia el contenido de **un solo** archivo `Main.java` en el editor y pulsa **Run**. Cada carpeta contiene un programa independiente. Empieza con el código inicial y consulta la solución después de intentarlo. No necesitas instalar Java. El enlace precargado específico queda pendiente; los archivos ya están disponibles aquí.
+
+| Ejemplo del video | Código inicial | Solución completa | Comprobación |
+| --- | --- | --- | --- |
+| Primer programa: Hola, Mundo | [Main.java](starter-files/mision-01/hola-mundo/Main.java) | [Main.java](completed-examples/mision-01/hola-mundo/Main.java) | Una línea: `Hola, Mundo`. |
+| Variables y ficha de Pixel | [Main.java](starter-files/mision-01/ficha-pixel/Main.java) | [Main.java](completed-examples/mision-01/ficha-pixel/Main.java) | Cuatro líneas: `Nombre: Pixel`, `Vida: 100`, `Velocidad: 2.5` y `Escudo: true`. |
+| Desafío de personalización | [Main.java](starter-files/mision-01/desafio/Main.java) | [Posible solución](completed-examples/mision-01/desafio/Main.java) | Cambia el nombre, asigna 150 de vida, modifica la velocidad y elige el escudo. |
+
+Los dos primeros ejemplos completos reproducen los programas resueltos en el video. El desafío inicial conserva la ficha original; su solución es una propuesta para comprobar la actividad, que el video deja al estudiante. En esa propuesta se muestran `Nombre: Nova`, `Vida: 150`, `Velocidad: 3.5` y `Escudo: false`. Puedes elegir otro nombre, otra velocidad y otro valor para el escudo.
 
 **Desafío:** cambia el nombre de Pixel, asígnale 150 puntos de vida, modifica su velocidad y decide si tendrá escudo. Ejecuta el programa y comprueba qué cambia en su ficha.
 
@@ -145,7 +157,7 @@ El bucle se repite cuatro veces. La consola muestra `Energía: 40`, `Energía: 6
 
 | Misión | Actividad | Empezar a programar |
 | --- | --- | --- |
-| 1 | Mostrar mensajes y construir la ficha de Pixel con variables | [Ver video en YouTube](https://youtu.be/bIHX3itpP3w?si=bqwBDBms8DCaeNhK) · Práctica precargada pendiente |
+| 1 | Mostrar mensajes y construir la ficha de Pixel con variables | [Ver video en YouTube](https://youtu.be/bIHX3itpP3w?si=bqwBDBms8DCaeNhK) · [Código y guía de la misión 1](#prácticas-de-la-misión-1) |
 | 2 | Calcular monedas, decidir, cruzar el puente y recuperar energía | [Código y guía de la misión 2](#prácticas-de-la-misión-2) |
 | 3 | Leer un nombre y personalizar un saludo mediante métodos | Enlace precargado pendiente |
 | 4 | Crear y presentar varios personajes a partir de una clase | Enlace precargado pendiente |
