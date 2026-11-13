@@ -145,7 +145,7 @@ El bucle se repite cuatro veces. La consola muestra `Energía: 40`, `Energía: 6
 
 | Misión | Actividad | Empezar a programar |
 | --- | --- | --- |
-| 1 | Mostrar mensajes y construir la ficha de Pixel con variables | Enlace precargado pendiente |
+| 1 | Mostrar mensajes y construir la ficha de Pixel con variables | [Ver video en YouTube](https://youtu.be/bIHX3itpP3w?si=bqwBDBms8DCaeNhK) · Práctica precargada pendiente |
 | 2 | Calcular monedas, decidir, cruzar el puente y recuperar energía | [Código y guía de la misión 2](#prácticas-de-la-misión-2) |
 | 3 | Leer un nombre y personalizar un saludo mediante métodos | Enlace precargado pendiente |
 | 4 | Crear y presentar varios personajes a partir de una clase | Enlace precargado pendiente |
