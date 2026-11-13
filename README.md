@@ -14,7 +14,7 @@ El curso está dirigido a estudiantes de secundaria sin experiencia previa. Cada
 
 **Repositorio de código fuente:** [Vanguard · Java Fundamentals Course](https://github.com/Vanguard-open-source/java-fundamentals-course-vanguard)
 
-> **Versión preliminar:** las misiones 2 y 5 ya cuentan con video, código inicial y soluciones completas. Los enlaces y materiales de las misiones 1, 3 y 4 se incorporarán cuando estén disponibles.
+> **Versión preliminar:** las misiones 1, 2 y 5 ya cuentan con video; las misiones 2 y 5 también tienen código inicial y soluciones completas. Los materiales de la misión 1 y los enlaces y materiales de las misiones 3 y 4 se incorporarán cuando estén disponibles.
 
 ## Secuencia de las Lecciones
 
@@ -24,7 +24,7 @@ El curso está dirigido a estudiantes de secundaria sin experiencia previa. Cada
 
 **Descripción:** descubre qué significa programar y para qué se utiliza Java. Conoce la estructura básica de un programa, muestra tu primer mensaje en la consola y crea la ficha de Pixel utilizando variables.
 
-**Enlace:** pendiente de incorporar el enlace real del video no listado de la misión 1.
+**Enlace:** [Ver la misión 1 en YouTube](https://youtu.be/bIHX3itpP3w?si=bqwBDBms8DCaeNhK).
 
 **Conclusiones clave:**
 
