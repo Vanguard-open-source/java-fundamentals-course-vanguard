@@ -14,7 +14,7 @@ El curso está dirigido a estudiantes de secundaria sin experiencia previa. Cada
 
 **Repositorio de código fuente:** [Vanguard · Java Fundamentals Course](https://github.com/Vanguard-open-source/java-fundamentals-course-vanguard)
 
-> **Versión preliminar:** la misión 5 ya cuenta con video, código inicial y solución completa. Los enlaces y materiales de las misiones 1 a 4 se incorporarán cuando estén disponibles.
+> **Versión preliminar:** las misiones 2 y 5 ya cuentan con video, código inicial y soluciones completas. Los enlaces y materiales de las misiones 1, 3 y 4 se incorporarán cuando estén disponibles.
 
 ## Secuencia de las Lecciones
 
@@ -39,22 +39,43 @@ El curso está dirigido a estudiantes de secundaria sin experiencia previa. Cada
 
 ### Misión 2: El laberinto de las decisiones — Operadores, condiciones y bucles
 
-**Duración estimada:** 11 minutos.
+**Duración:** 11 minutos.
 
-**Descripción:** ayuda a Pixel a superar una puerta que requiere monedas y a recuperar su energía. Aprende a realizar cálculos, comparar valores, elegir entre dos caminos y repetir instrucciones con bucles.
+**Descripción:** ayuda a Pixel a superar una puerta de 50 monedas, cruzar un puente de cinco plataformas y recuperar su energía. Construye el código paso a paso para calcular, comparar, elegir entre dos caminos y repetir instrucciones. Predice los resultados y comprueba cómo cambian al modificar los datos.
 
-**Enlace:** pendiente de incorporar el enlace real del video no listado de la misión 2.
+**Enlace:** [Ver la misión 2 en YouTube](https://youtu.be/D5-3Ms_h5tA).
 
 **Conclusiones clave:**
 
 - Los operadores aritméticos permiten calcular y los operadores de comparación permiten obtener un resultado verdadero o falso.
 - `=` asigna un valor; `==` compara si dos valores son iguales.
-- `if/else` ejecuta un bloque u otro según una condición.
-- `for` y `while` permiten repetir instrucciones. La condición y los cambios en las variables determinan cuándo termina la repetición.
+- `if/else` ejecuta un bloque u otro según una condición. Con `monedas >= 50`, tanto 50 como 60 permiten entrar; 30 y 49 no alcanzan.
+- `for` reúne inicio, condición y actualización. Con `paso <= 5` imprime los pasos del 1 al 5; al evaluar 6, termina sin imprimirlo.
+- `while` repite mientras la condición sea verdadera. La energía cambia de 20 a 30, 40 y 50; al llegar a 50, `energia < 50` es falso.
+- Editar un dato y ejecutar son acciones distintas: hay que volver a ejecutar para comprobar la nueva salida. Las animaciones de Pixel ilustran los resultados; no son un videojuego controlado por Java.
 
-**Práctica:** pendiente de incorporar el enlace precargado de la práctica de la misión 2.
+#### Prácticas de la misión 2
 
-**Desafío:** modifica la meta de energía a 100 y haz que cada poción recupere 20 puntos. Antes de ejecutar, predice cuántas veces se repetirá el proceso y contrasta tu respuesta con la consola.
+Abre [OnlineGDB para Java](https://www.onlinegdb.com/online_java_compiler), copia el contenido de **un solo** archivo `Main.java` en el editor y pulsa **Run**. Cada ejemplo es un programa independiente: no pegues todos los archivos juntos. No necesitas instalar Java. El enlace precargado específico de esta misión queda pendiente; los archivos iniciales y las soluciones están disponibles aquí.
+
+| Ejemplo del video | Código inicial | Solución completa | Comprobación |
+| --- | --- | --- | --- |
+| Operadores y expresiones | [Main.java](starter-files/mision-02/operadores/Main.java) | [Main.java](completed-examples/mision-02/operadores/Main.java) | `Total: 50` y `¿Puede entrar? true`. Cambia `recompensa` a 10: obtendrás 40 y `false`. |
+| Decisiones con `if/else` | [Main.java](starter-files/mision-02/decisiones/Main.java) | [Main.java](completed-examples/mision-02/decisiones/Main.java) | Con 30: `Necesitas más monedas.` Prueba también 60, 50 y 49. |
+| Cinco pasos con `for` | [Main.java](starter-files/mision-02/for/Main.java) | [Main.java](completed-examples/mision-02/for/Main.java) | Cinco líneas: `Paso: 1` a `Paso: 5`. Cambia el límite a 3 y predice cuántas aparecerán. |
+| Recuperar energía con `while` | [Main.java](starter-files/mision-02/while/Main.java) | [Main.java](completed-examples/mision-02/while/Main.java) | `Energía: 30`, `Energía: 40` y `Energía: 50`. La primera salida es 30 porque primero se suma. |
+| Desafío de energía | [Main.java](starter-files/mision-02/desafio/Main.java) | [Main.java](completed-examples/mision-02/desafio/Main.java) | Conserva el inicio en 20 y modifica la meta y el incremento después de intentar la actividad. |
+
+Los cuatro primeros archivos iniciales contienen una base compilable y una indicación de lo que debes completar. El desafío empieza con el `while` de la lección funcionando, para que puedas modificarlo.
+
+**Desafío:** conserva la energía inicial en 20, cambia la meta a 100 y haz que cada poción recupere 20 puntos. Antes de ejecutar, predice cuántos valores aparecerán. Pausa el video, modifica el programa y contrasta tu respuesta con la consola.
+
+<details>
+<summary>Ver la comprobación del desafío después de intentarlo</summary>
+
+El bucle se repite cuatro veces. La consola muestra `Energía: 40`, `Energía: 60`, `Energía: 80` y `Energía: 100`. No imprime 20, porque la suma ocurre antes de `println`; al llegar a 100, la condición es falsa y termina.
+
+</details>
 
 ### Misión 3: Desbloquea tus habilidades — Métodos, parámetros y Scanner
 
@@ -125,7 +146,7 @@ El curso está dirigido a estudiantes de secundaria sin experiencia previa. Cada
 | Misión | Actividad | Empezar a programar |
 | --- | --- | --- |
 | 1 | Mostrar mensajes y construir la ficha de Pixel con variables | Enlace precargado pendiente |
-| 2 | Abrir la puerta con condiciones y recuperar energía con bucles | Enlace precargado pendiente |
+| 2 | Calcular monedas, decidir, cruzar el puente y recuperar energía | [Código y guía de la misión 2](#prácticas-de-la-misión-2) |
 | 3 | Leer un nombre y personalizar un saludo mediante métodos | Enlace precargado pendiente |
 | 4 | Crear y presentar varios personajes a partir de una clase | Enlace precargado pendiente |
 | 5 | Validar la vida, recorrer el equipo y completar el proyecto final | [Abrir en OnlineGDB](https://onlinegdb.com/6nfQx3CBE) |
@@ -176,9 +197,3 @@ Para practicar, pausa el video, predice el resultado, ejecuta el programa y comp
 | 3. Desbloquea tus habilidades | Luisa Nhiriel Casalino Berrocal |
 | 4. La fábrica de personajes | Giovanni Marcelo Gallegos De La Cruz |
 | 5. El desafío final | Fabricio Jose Rivera Rupay |
-
-El curso está organizado en cinco misiones con una progresión común: explicación de conceptos, demostración del programa, pregunta para reflexionar, práctica y cierre. La preparación de cada misión comprende su narración, el material visual, los ejemplos y la actividad propuesta.
-
-Fabricio Jose Rivera Rupay es responsable de la misión 5 y utiliza la cuenta de GitHub [Fabricio1924](https://github.com/Fabricio1924).
-
-Los aportes al plan del curso, al código y a los materiales se registrarán mediante commits de cada integrante. Antes de la entrega, el equipo revisará la continuidad de las lecciones, los ejemplos, los enlaces y la duración total, y completará el resumen de las tareas efectivamente realizadas.
