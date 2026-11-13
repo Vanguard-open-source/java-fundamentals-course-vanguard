@@ -14,7 +14,7 @@ El curso está dirigido a estudiantes de secundaria sin experiencia previa. Cada
 
 **Repositorio de código fuente:** [Vanguard · Java Fundamentals Course](https://github.com/Vanguard-open-source/java-fundamentals-course-vanguard)
 
-> **Versión preliminar:** las misiones 1, 2 y 5 ya cuentan con video, código inicial y soluciones completas. Los enlaces y materiales de las misiones 3 y 4 se incorporarán cuando estén disponibles.
+> **Versión preliminar:** las misiones 1, 2 y 5 ya cuentan con video, código inicial y soluciones completas. La misión 3 ya cuenta con video. Los materiales de práctica de la misión 3 y los recursos de la misión 4 se incorporarán cuando estén disponibles.
 
 ## Secuencia de las Lecciones
 
@@ -95,7 +95,7 @@ El bucle se repite cuatro veces. La consola muestra `Energía: 40`, `Energía: 6
 
 **Descripción:** convierte las acciones de Pixel en métodos que puedas reutilizar. Personaliza sus saludos utilizando parámetros y recibe el nombre del personaje desde el teclado con `Scanner`.
 
-**Enlace:** pendiente de incorporar el enlace real del video no listado de la misión 3.
+**Enlace:** [Ver la misión 3 en YouTube](https://youtu.be/ktbu2jNDUY4).
 
 **Conclusiones clave:**
 
