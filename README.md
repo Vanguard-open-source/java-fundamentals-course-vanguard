@@ -14,7 +14,7 @@ El curso está dirigido a estudiantes de secundaria sin experiencia previa. Cada
 
 **Repositorio de código fuente:** [Vanguard · Java Fundamentals Course](https://github.com/Vanguard-open-source/java-fundamentals-course-vanguard)
 
-> **Versión preliminar:** las misiones 1, 2 y 5 ya cuentan con video, código inicial y soluciones completas. La misión 3 ya cuenta con video. Los materiales de práctica de la misión 3 y los recursos de la misión 4 se incorporarán cuando estén disponibles.
+> **Versión preliminar:** las misiones 1, 2 y 5 ya cuentan con video, código inicial y soluciones completas. La misión 3 también cuenta con estos recursos. Los materiales de la misión 4 se incorporarán cuando estén disponibles.
 
 ## Secuencia de las Lecciones
 
@@ -91,7 +91,7 @@ El bucle se repite cuatro veces. La consola muestra `Energía: 40`, `Energía: 6
 
 ### Misión 3: Desbloquea tus habilidades — Métodos, parámetros y Scanner
 
-**Duración estimada:** 11 minutos.
+**Duración:** 12 minutos y 13 segundos.
 
 **Descripción:** convierte las acciones de Pixel en métodos que puedas reutilizar. Personaliza sus saludos utilizando parámetros y recibe el nombre del personaje desde el teclado con `Scanner`.
 
@@ -104,7 +104,17 @@ El bucle se repite cuatro veces. La consola muestra `Energía: 40`, `Energía: 6
 - `Scanner` permite leer datos y `nextLine` permite recibir una línea de texto.
 - Podemos leer un dato, guardarlo en una variable y enviarlo como argumento a un método.
 
-**Práctica:** pendiente de incorporar el enlace precargado de la práctica de la misión 3.
+#### Prácticas de la misión 3
+
+Abre [OnlineGDB para Java](https://www.onlinegdb.com/online_java_compiler) y ejecuta un archivo Main.java por vez. En los ejemplos con Scanner, escribe un nombre en la consola y pulsa Enter.
+
+| Ejercicio | Código inicial | Solución |
+| --- | --- | --- |
+| Definir y llamar un método | [Main.java](starter-files/mision-03/metodo-saludar/Main.java) | [Main.java](completed-examples/mision-03/metodo-saludar/Main.java) |
+| Enviar argumentos | [Main.java](starter-files/mision-03/parametros/Main.java) | [Main.java](completed-examples/mision-03/parametros/Main.java) |
+| Leer un nombre con Scanner | [Main.java](starter-files/mision-03/scanner/Main.java) | [Main.java](completed-examples/mision-03/scanner/Main.java) |
+| Combinar Scanner y un método | [Main.java](starter-files/mision-03/saludo-interactivo/Main.java) | [Main.java](completed-examples/mision-03/saludo-interactivo/Main.java) |
+| Desafío de habilidad especial | [Main.java](starter-files/mision-03/desafio/Main.java) | [Main.java](completed-examples/mision-03/desafio/Main.java) |
 
 **Desafío:** crea un método llamado `mostrarHabilidad` que muestre «¡Poder especial desbloqueado!». Llámalo desde `main` después del saludo y verifica el resultado.
 
@@ -159,7 +169,7 @@ El bucle se repite cuatro veces. La consola muestra `Energía: 40`, `Energía: 6
 | --- | --- | --- |
 | 1 | Mostrar mensajes y construir la ficha de Pixel con variables | [Ver video en YouTube](https://youtu.be/bIHX3itpP3w?si=bqwBDBms8DCaeNhK) · [Código y guía de la misión 1](#prácticas-de-la-misión-1) |
 | 2 | Calcular monedas, decidir, cruzar el puente y recuperar energía | [Código y guía de la misión 2](#prácticas-de-la-misión-2) |
-| 3 | Leer un nombre y personalizar un saludo mediante métodos | Enlace precargado pendiente |
+| 3 | Leer un nombre y personalizar un saludo mediante métodos | [Código y guía de la misión 3](#prácticas-de-la-misión-3) |
 | 4 | Crear y presentar varios personajes a partir de una clase | Enlace precargado pendiente |
 | 5 | Validar la vida, recorrer el equipo y completar el proyecto final | [Abrir en OnlineGDB](https://onlinegdb.com/6nfQx3CBE) |
 
