@@ -10,11 +10,11 @@ El curso está dirigido a estudiantes de secundaria sin experiencia previa. Cada
 **Público objetivo:** estudiantes de 12 a 17 años sin experiencia en programación.  
 **Prerrequisitos:** ninguno.  
 **Herramientas necesarias:** navegador web y conexión a Internet. Las prácticas se realizarán en editores gratuitos en línea.  
-**Formato:** cinco videolecciones de aproximadamente 11 minutos, publicadas como no listadas en YouTube.
+**Formato:** cinco videolecciones con enlaces a YouTube.
 
 **Repositorio de código fuente:** [Vanguard · Java Fundamentals Course](https://github.com/Vanguard-open-source/java-fundamentals-course-vanguard)
 
-> **Versión preliminar:** las misiones 1, 2 y 5 ya cuentan con video, código inicial y soluciones completas. La misión 3 también cuenta con estos recursos. Los materiales de la misión 4 se incorporarán cuando estén disponibles.
+> Las cinco misiones cuentan con código inicial y soluciones.
 
 ## Secuencia de las Lecciones
 
@@ -120,11 +120,11 @@ Abre [OnlineGDB para Java](https://www.onlinegdb.com/online_java_compiler) y eje
 
 ### Misión 4: La fábrica de personajes — Clases, constructores y objetos
 
-**Duración estimada:** 11 minutos.
+**Duración:** 14 minutos y 40 segundos.
 
 **Descripción:** descubre cómo organizar los datos y las acciones de un personaje mediante programación orientada a objetos. Utiliza una clase como plantilla para crear a Pixel y Nova, cada uno con su nombre y puntos de vida.
 
-**Enlace:** pendiente de incorporar el enlace real del video no listado de la misión 4.
+**Enlace:** [Ver la misión 4 en YouTube](https://youtu.be/9jRmklgBVVY).
 
 **Conclusiones clave:**
 
@@ -133,7 +133,16 @@ Abre [OnlineGDB para Java](https://www.onlinegdb.com/online_java_compiler) y eje
 - El constructor permite inicializar un objeto al crearlo con `new`.
 - Dos objetos de la misma clase pueden guardar datos diferentes y utilizar los mismos métodos.
 
-**Práctica:** pendiente de incorporar el enlace precargado de la práctica de la misión 4.
+#### Prácticas de la misión 4
+
+Abre el compilador Java en tu navegador, copia un solo `Main.java` y pulsa **Run**. Empieza con el código inicial y revisa la solución después de intentarlo. [Abrir OnlineGDB para Java](https://www.onlinegdb.com/online_java_compiler)
+
+| Ejercicio | Código inicial | Solución |
+| --- | --- | --- |
+| Clase y objeto | [Main.java](starter-files/mision-04/clase-y-objeto/Main.java) | [Main.java](completed-examples/mision-04/clase-y-objeto/Main.java) |
+| Constructor con `new` | [Main.java](starter-files/mision-04/constructor/Main.java) | [Main.java](completed-examples/mision-04/constructor/Main.java) |
+| Presentación de Pixel y Nova | [Main.java](starter-files/mision-04/presentacion/Main.java) | [Main.java](completed-examples/mision-04/presentacion/Main.java) |
+| Desafío de Shadow | [Main.java](starter-files/mision-04/desafio/Main.java) | [Main.java](completed-examples/mision-04/desafio/Main.java) |
 
 **Desafío:** crea un tercer personaje llamado Shadow, con 200 puntos de vida, y haz que se presente utilizando su método.
 
@@ -170,7 +179,7 @@ Abre [OnlineGDB para Java](https://www.onlinegdb.com/online_java_compiler) y eje
 | 1 | Mostrar mensajes y construir la ficha de Pixel con variables | [Ver video en YouTube](https://youtu.be/bIHX3itpP3w?si=bqwBDBms8DCaeNhK) · [Código y guía de la misión 1](#prácticas-de-la-misión-1) |
 | 2 | Calcular monedas, decidir, cruzar el puente y recuperar energía | [Código y guía de la misión 2](#prácticas-de-la-misión-2) |
 | 3 | Leer un nombre y personalizar un saludo mediante métodos | [Código y guía de la misión 3](#prácticas-de-la-misión-3) |
-| 4 | Crear y presentar varios personajes a partir de una clase | Enlace precargado pendiente |
+| 4 | Crear y presentar varios personajes a partir de una clase | [Código y guía de la misión 4](#prácticas-de-la-misión-4) |
 | 5 | Validar la vida, recorrer el equipo y completar el proyecto final | [Abrir en OnlineGDB](https://onlinegdb.com/6nfQx3CBE) |
 
 ### Material de cada misión en el repositorio
